@@ -1,0 +1,15 @@
+# Still a work in progress, will update when the .pit file is available. 
+# mount point fstype device
+
+/boot emmc /dev/block/
+/recovery emmc /dev/block/
+
+/efs ext4 /dev/block/mmcblk0p21
+/cache ext4 /dev/block/mmcblk0p26
+/system ext4 /dev/block/mmcblk0p24
+/data ext4 /dev/block/mmcblk0p25 
+
+/sdcard vfat /dev/block/
+/emmc vfat /dev/block/
+
+
